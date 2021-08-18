@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  background-color: #a2a2a2;
+  font-size: calc(8px + 2vmin);
+  color: white;
+}
+
+.App-header {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(12px + 2vmin);
+}
+
+.App-logo {
+  height: 50vmin;
+  pointer-events: none;
+}
+
+.metamask-button {
+  background-color: #ff8c00;
+  padding: 10px 50px;
+  border-radius: 15px;
+}
+
+.metamask-button:hover {
+  background-color: #bf4c00;
+}
+
+.mine-button {
+  background-color: #003f00; 
+  padding: 10px 50px;
+  border-radius: 15px;
+}
+
+.mine-button:hover {
+  background-color: #009f00;
+}
+
+
+.directions {
+  font-size: 8px + 1vmin;
+}
